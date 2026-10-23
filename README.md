@@ -1,3 +1,5 @@
+vc4-runtime配套的tflm，基于openmv所使用的基线tflm版本a57349f，添加了vc4内核替换，无op算子注册，支持fp32类型，用于mpynn的raspberrypiport，详见https://gitee.com/wth_iw0/vc4-runtime，与https://gitee.com/wth_iw0/mpynn
+
 <!--ts-->
    * [TensorFlow Lite for Microcontrollers](#tensorflow-lite-for-microcontrollers)
    * [Build Status](#build-status)
