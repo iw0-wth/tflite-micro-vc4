@@ -1,0 +1,38 @@
+/bazel-*
+/compile_commands.json
+*.swp
+.vscode/
+*audio_frontend*
+*google*
+*__pycache__*
+venv
+gen
+
+# Ignore the directory in which `clangd` stores its local index.
+/.cache/
+
+# Ignore the `external` symlink added by `bazel-compile-commands-extractor`
+/external
+
+# Dependencies fetched by the Make build.
+/tensorflow/lite/micro/tools/make/downloads/
+
+# Local build outputs and caches.
+/build/
+/dist/
+/out/
+CMakeFiles/
+CMakeCache.txt
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.elf
+*.map
+*.d
+*.pyc
+*.pyo
+
